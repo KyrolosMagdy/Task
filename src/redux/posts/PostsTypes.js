@@ -1,0 +1,8 @@
+const PostsTypes = {
+  GET_POSTS_STARTS: 'GET_POSTS_STARTS',
+  GET_POSTS_SUCCESS: 'GET_POSTS_SUCCESS',
+  GET_POSTS_FAILURE: 'GET_POSTS_FAILURE',
+  IS_LOADING: 'IS_LOADING',
+};
+
+export default PostsTypes;
