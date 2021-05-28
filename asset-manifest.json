@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Task/static/css/main.ce9c0447.chunk.css",
-    "main.js": "/Task/static/js/main.450ec886.chunk.js",
-    "main.js.map": "/Task/static/js/main.450ec886.chunk.js.map",
-    "runtime-main.js": "/Task/static/js/runtime-main.2968c864.js",
-    "runtime-main.js.map": "/Task/static/js/runtime-main.2968c864.js.map",
-    "static/js/2.9a0d8b40.chunk.js": "/Task/static/js/2.9a0d8b40.chunk.js",
-    "static/js/2.9a0d8b40.chunk.js.map": "/Task/static/js/2.9a0d8b40.chunk.js.map",
-    "static/js/3.be3dd50a.chunk.js": "/Task/static/js/3.be3dd50a.chunk.js",
-    "static/js/3.be3dd50a.chunk.js.map": "/Task/static/js/3.be3dd50a.chunk.js.map",
-    "index.html": "/Task/index.html",
-    "static/css/main.ce9c0447.chunk.css.map": "/Task/static/css/main.ce9c0447.chunk.css.map",
-    "static/js/2.9a0d8b40.chunk.js.LICENSE.txt": "/Task/static/js/2.9a0d8b40.chunk.js.LICENSE.txt",
-    "static/media/brand.ff937463.jpg": "/Task/static/media/brand.ff937463.jpg",
-    "static/media/card-image.11b5e034.jpg": "/Task/static/media/card-image.11b5e034.jpg"
+    "main.css": "/task/static/css/main.ce9c0447.chunk.css",
+    "main.js": "/task/static/js/main.8503b391.chunk.js",
+    "main.js.map": "/task/static/js/main.8503b391.chunk.js.map",
+    "runtime-main.js": "/task/static/js/runtime-main.22ea5c1e.js",
+    "runtime-main.js.map": "/task/static/js/runtime-main.22ea5c1e.js.map",
+    "static/js/2.2c89a176.chunk.js": "/task/static/js/2.2c89a176.chunk.js",
+    "static/js/2.2c89a176.chunk.js.map": "/task/static/js/2.2c89a176.chunk.js.map",
+    "static/js/3.7b6e2dc4.chunk.js": "/task/static/js/3.7b6e2dc4.chunk.js",
+    "static/js/3.7b6e2dc4.chunk.js.map": "/task/static/js/3.7b6e2dc4.chunk.js.map",
+    "index.html": "/task/index.html",
+    "static/css/main.ce9c0447.chunk.css.map": "/task/static/css/main.ce9c0447.chunk.css.map",
+    "static/js/2.2c89a176.chunk.js.LICENSE.txt": "/task/static/js/2.2c89a176.chunk.js.LICENSE.txt",
+    "static/media/brand.ff937463.jpg": "/task/static/media/brand.ff937463.jpg",
+    "static/media/card-image.11b5e034.jpg": "/task/static/media/card-image.11b5e034.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2968c864.js",
-    "static/js/2.9a0d8b40.chunk.js",
+    "static/js/runtime-main.22ea5c1e.js",
+    "static/js/2.2c89a176.chunk.js",
     "static/css/main.ce9c0447.chunk.css",
-    "static/js/main.450ec886.chunk.js"
+    "static/js/main.8503b391.chunk.js"
   ]
 }
