@@ -88,7 +88,7 @@ const UsersPage = ({
 
   useEffect(() => {
     getUsersStartsAction();
-  }, [getUsersStartsAction]);
+  }, []);
 
   const handleMoreUsersRequired = (pageNumber) => {
     loadMoreUsersAction(pageNumber);
