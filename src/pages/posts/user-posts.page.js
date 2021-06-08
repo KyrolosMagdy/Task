@@ -56,7 +56,7 @@ const PostsPage = ({ getPostsStartsAction, posts, location }) => {
   const hanldeOnPostRowClick = (row) => {
     console.log('supposed to get comments');
     history.push({
-      pathname: `/${user.id}/${row.id}`,
+      pathname: `/task/${user.id}/${row.id}`,
       state: {
         row: row,
         user: user,
@@ -81,7 +81,7 @@ const PostsPage = ({ getPostsStartsAction, posts, location }) => {
           cursor: 'pointer',
           backgroundColor: 'whitesmoke',
         }}
-        onClick={() => history.push('/')}
+        onClick={() => history.push('/task/')}
       >
         Back{' '}
         <Typography variant="h5" display="inline">

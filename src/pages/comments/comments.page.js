@@ -63,7 +63,7 @@ const CommentPage = ({ location, fetchCommentsStartsAction, comments }) => {
         }}
         onClick={() =>
           history.push({
-            pathname: `/${postId}`,
+            pathname: `/task/${postId}`,
             state: {
               row: location.state.user,
             },

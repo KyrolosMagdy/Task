@@ -88,7 +88,7 @@ const UsersPage = ({
 
   useEffect(() => {
     getUsersStartsAction();
-  }, []);
+  }, [getUsersStartsAction]);
 
   const handleMoreUsersRequired = (pageNumber) => {
     loadMoreUsersAction(pageNumber);
@@ -106,7 +106,7 @@ const UsersPage = ({
 
   const handleOnRowClick = (row) => {
     history.push({
-      pathname: `/${row.id}`,
+      pathname: `/task/${row.id}`,
       state: {
         row: row,
       },

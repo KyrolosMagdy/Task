@@ -13,9 +13,9 @@ function App({ isLoading }) {
       <Loader isLoading={isLoading} />
       <NavBar />
       <Switch>
-        <Route path="/:userId/:postId" exact component={CommentPage} />
-        <Route path="/:userId" exact component={PostsPage} />
-        <Route path="/" exact component={UsersPage} />
+        <Route path="/task/:userId/:postId" exact component={CommentPage} />
+        <Route path="/task/:userId" exact component={PostsPage} />
+        <Route path="/task/" exact component={UsersPage} />
       </Switch>
     </div>
   );

@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Brand from '../../assets/brand.jpg';
+import { useHistory } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,13 +25,18 @@ const useStyles = makeStyles((theme) => ({
 
 const NavBar = () => {
   const classes = useStyles();
+  const history = useHistory();
+
+  const handleImageClick = () => {
+    history.push('/task/');
+  };
 
   return (
     <div className={classes.root}>
       <div className={classes.aboveNav}></div>
       <AppBar position="static">
         <Toolbar>
-          <img src={Brand} alt="Logo" />
+          <img src={Brand} alt="Logo" onClick={handleImageClick} />
         </Toolbar>
       </AppBar>
     </div>
