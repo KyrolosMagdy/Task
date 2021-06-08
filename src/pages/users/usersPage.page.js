@@ -161,15 +161,18 @@ const UsersPage = ({
           </Typography>{' '}
         </div>
       </div>
-
-      <CustomTable
-        data={users.users}
-        totalData={totalUsers}
-        onMoreDataRequired={handleMoreUsersRequired}
-        handleOnRowClick={handleOnRowClick}
-        titles={headers}
-        currentPage="users"
-      />
+      {users.users.length > 0 ? (
+        <CustomTable
+          data={users.users}
+          totalData={totalUsers}
+          onMoreDataRequired={handleMoreUsersRequired}
+          handleOnRowClick={handleOnRowClick}
+          titles={headers}
+          currentPage="users"
+        />
+      ) : (
+        <div> No Users Yet </div>
+      )}
     </div>
   );
 };
